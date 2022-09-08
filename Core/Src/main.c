@@ -80,7 +80,6 @@ void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim) {
 
 uint16_t pwmData[BUF_LEN] = {0};
 
-
 uint32_t colors[LEDS] = {0x000000};
 
 void sendData() {
@@ -101,7 +100,7 @@ inline void resetLeds() {
     }
 }
 
-uint32_t colorConvert(uint32_t std_rgb){
+uint32_t colorConvert(uint32_t std_rgb) {
     typedef union Color {
         uint32_t rgb;
         uint8_t bytes[3];
@@ -119,7 +118,7 @@ uint32_t colorConvert(uint32_t std_rgb){
     return grbColor.rgb;
 }
 
-inline void setLed(uint8_t index, uint32_t color){
+inline void setLed(uint8_t index, uint32_t color) {
     colors[index] = colorConvert(color);
 }
 
