@@ -78,15 +78,15 @@ void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim) {
 #define LEDS 8
 #define BUF_LEN (LEDS * 24+1)
 
-uint16_t pwmData[BUF_LEN];
+uint16_t pwmData[BUF_LEN] = {0};
 
 
 uint32_t colors[LEDS] = {0x000000};
 
-void WS2812_Send() {
+void sendData() {
     for (int j = 0; j < (LEDS); ++j) {
         for (int i = 23; i >= 0; i--) {
-            pwmData[24*j+i] = colors[j] & (1 << i) ? PWM_HI : PWM_LO;
+            pwmData[24 * j + i] = colors[j] & (1 << i) ? PWM_HI : PWM_LO;
         }
     }
 
@@ -95,6 +95,12 @@ void WS2812_Send() {
     datasentflag = 0;
 }
 /* USER CODE END 0 */
+
+inline void resetLeds(){
+    for (int i = 0; i < LEDS; ++i) {
+        colors[i] = 0x000000;
+    }
+}
 
 /**
   * @brief  The application entry point.
@@ -133,53 +139,65 @@ int main(void) {
     /* USER CODE BEGIN WHILE */
     while (1) {
 
-        colors[0] = 0xFF0000;
-        WS2812_Send();
-        HAL_Delay(1000);
 
-        colors[1] = 0x550000;
-        WS2812_Send();
-        HAL_Delay(1000);
+        resetLeds();
+        colors[2] = 0xFF00FF;
+        sendData();
+        HAL_Delay(250);
+
+        resetLeds();
+        colors[6] = 0xFF00FF;
+        sendData();
+        HAL_Delay(250);
+
+        resetLeds();
+        colors[4] = 0xFF00FF;
+        sendData();
+        HAL_Delay(250);
+
+
+        resetLeds();
+        colors[0] = 0xFF0000;
+        sendData();
+        HAL_Delay(500);
+
+        colors[1] = 0xF00000;
+        sendData();
+        HAL_Delay(500);
 
         colors[2] = 0x00FF00;
-        WS2812_Send();
-        HAL_Delay(1000);
+        sendData();
+        HAL_Delay(500);
 
 
         colors[3] = 0x0000FF;
-        WS2812_Send();
-        HAL_Delay(1000);
+        sendData();
+        HAL_Delay(500);
 
 
         colors[4] = 0xFFFFFF;
-        WS2812_Send();
-        HAL_Delay(1000);
+        sendData();
+        HAL_Delay(500);
 
 
         colors[5] = 0xFF00FF;
-        WS2812_Send();
-        HAL_Delay(1000);
+        sendData();
+        HAL_Delay(500);
 
         colors[6] = 0xFFFF00;
-        WS2812_Send();
-        HAL_Delay(1000);
+        sendData();
+        HAL_Delay(500);
 
 
         colors[7] = 0x00FFFF;
-        WS2812_Send();
-        HAL_Delay(1000);
+        sendData();
+        HAL_Delay(500);
 
 
-
-        HAL_Delay(1000);
-
-
-        for (int i = 0; i < LEDS; ++i) {
-            colors[i] = 0x000000;
-        }
+      resetLeds();
         // colors code for some color
-        WS2812_Send();
-        HAL_Delay(2000);
+        sendData();
+        HAL_Delay(1500);
 
 
         /* USER CODE END WHILE */
