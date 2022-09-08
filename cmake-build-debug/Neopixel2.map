@@ -1421,7 +1421,7 @@ LOAD /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 0x0000000008000000                g_pfnVectors
                 0x00000000080000bc                . = ALIGN (0x4)
 
-.text           0x00000000080000bc     0x244c
+.text           0x00000000080000bc     0x24d0
                 0x00000000080000bc                . = ALIGN (0x4)
  *(.text)
  .text          0x00000000080000bc      0x114 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
@@ -1448,318 +1448,319 @@ LOAD /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 0x00000000080002b8       0x14 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
                 0x00000000080002b8                HAL_TIM_PWM_PulseFinishedCallback
  .text.WS2812_Send
-                0x00000000080002cc       0x5c CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+                0x00000000080002cc       0x64 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
                 0x00000000080002cc                WS2812_Send
  .text.Error_Handler
-                0x0000000008000328        0x4 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
-                0x0000000008000328                Error_Handler
+                0x0000000008000330        0x4 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+                0x0000000008000330                Error_Handler
  .text.MX_TIM1_Init
-                0x000000000800032c       0xf4 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+                0x0000000008000334       0xf4 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
  .text.SystemClock_Config
-                0x0000000008000420       0x82 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
-                0x0000000008000420                SystemClock_Config
- .text.main     0x00000000080004a2       0x52 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
-                0x00000000080004a2                main
+                0x0000000008000428       0x82 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+                0x0000000008000428                SystemClock_Config
+ *fill*         0x00000000080004aa        0x2 
+ .text.main     0x00000000080004ac       0xcc CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+                0x00000000080004ac                main
  .text.HAL_MspInit
-                0x00000000080004f4       0x30 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
-                0x00000000080004f4                HAL_MspInit
+                0x0000000008000578       0x30 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+                0x0000000008000578                HAL_MspInit
  .text.HAL_TIM_Base_MspInit
-                0x0000000008000524       0x90 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
-                0x0000000008000524                HAL_TIM_Base_MspInit
+                0x00000000080005a8       0x90 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+                0x00000000080005a8                HAL_TIM_Base_MspInit
  .text.HAL_TIM_MspPostInit
-                0x00000000080005b4       0x50 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
-                0x00000000080005b4                HAL_TIM_MspPostInit
+                0x0000000008000638       0x50 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+                0x0000000008000638                HAL_TIM_MspPostInit
  .text.NMI_Handler
-                0x0000000008000604        0x2 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
-                0x0000000008000604                NMI_Handler
+                0x0000000008000688        0x2 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
+                0x0000000008000688                NMI_Handler
  .text.HardFault_Handler
-                0x0000000008000606        0x2 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
-                0x0000000008000606                HardFault_Handler
+                0x000000000800068a        0x2 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
+                0x000000000800068a                HardFault_Handler
  .text.SVC_Handler
-                0x0000000008000608        0x2 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
-                0x0000000008000608                SVC_Handler
+                0x000000000800068c        0x2 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
+                0x000000000800068c                SVC_Handler
  .text.PendSV_Handler
-                0x000000000800060a        0x2 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
-                0x000000000800060a                PendSV_Handler
+                0x000000000800068e        0x2 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
+                0x000000000800068e                PendSV_Handler
  .text.SysTick_Handler
-                0x000000000800060c        0x8 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
-                0x000000000800060c                SysTick_Handler
+                0x0000000008000690        0x8 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
+                0x0000000008000690                SysTick_Handler
  .text.DMA1_Channel1_IRQHandler
-                0x0000000008000614       0x10 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
-                0x0000000008000614                DMA1_Channel1_IRQHandler
+                0x0000000008000698       0x10 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
+                0x0000000008000698                DMA1_Channel1_IRQHandler
  .text.SystemInit
-                0x0000000008000624        0x2 CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
-                0x0000000008000624                SystemInit
- *fill*         0x0000000008000626        0x2 
+                0x00000000080006a8        0x2 CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
+                0x00000000080006a8                SystemInit
+ *fill*         0x00000000080006aa        0x2 
  .text.Reset_Handler
-                0x0000000008000628       0x50 CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
-                0x0000000008000628                Reset_Handler
+                0x00000000080006ac       0x50 CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
+                0x00000000080006ac                Reset_Handler
  .text.Default_Handler
-                0x0000000008000678        0x2 CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
-                0x0000000008000678                LPTIM1_IRQHandler
-                0x0000000008000678                PVD_IRQHandler
-                0x0000000008000678                I2C1_IRQHandler
-                0x0000000008000678                LPTIM2_IRQHandler
-                0x0000000008000678                RTC_TAMP_IRQHandler
-                0x0000000008000678                SPI1_IRQHandler
-                0x0000000008000678                DMA1_Ch4_5_DMAMUX1_OVR_IRQHandler
-                0x0000000008000678                EXTI2_3_IRQHandler
-                0x0000000008000678                ADC1_IRQHandler
-                0x0000000008000678                I2C2_IRQHandler
-                0x0000000008000678                TIM17_IRQHandler
-                0x0000000008000678                TIM16_IRQHandler
-                0x0000000008000678                TIM3_IRQHandler
-                0x0000000008000678                EXTI4_15_IRQHandler
-                0x0000000008000678                RCC_IRQHandler
-                0x0000000008000678                Default_Handler
-                0x0000000008000678                TIM14_IRQHandler
-                0x0000000008000678                EXTI0_1_IRQHandler
-                0x0000000008000678                SPI2_IRQHandler
-                0x0000000008000678                WWDG_IRQHandler
-                0x0000000008000678                LPUART1_IRQHandler
-                0x0000000008000678                TIM2_IRQHandler
-                0x0000000008000678                DMA1_Channel2_3_IRQHandler
-                0x0000000008000678                USART2_IRQHandler
-                0x0000000008000678                FLASH_IRQHandler
-                0x0000000008000678                USART1_IRQHandler
-                0x0000000008000678                TIM1_BRK_UP_TRG_COM_IRQHandler
-                0x0000000008000678                TIM1_CC_IRQHandler
- *fill*         0x000000000800067a        0x2 
+                0x00000000080006fc        0x2 CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
+                0x00000000080006fc                LPTIM1_IRQHandler
+                0x00000000080006fc                PVD_IRQHandler
+                0x00000000080006fc                I2C1_IRQHandler
+                0x00000000080006fc                LPTIM2_IRQHandler
+                0x00000000080006fc                RTC_TAMP_IRQHandler
+                0x00000000080006fc                SPI1_IRQHandler
+                0x00000000080006fc                DMA1_Ch4_5_DMAMUX1_OVR_IRQHandler
+                0x00000000080006fc                EXTI2_3_IRQHandler
+                0x00000000080006fc                ADC1_IRQHandler
+                0x00000000080006fc                I2C2_IRQHandler
+                0x00000000080006fc                TIM17_IRQHandler
+                0x00000000080006fc                TIM16_IRQHandler
+                0x00000000080006fc                TIM3_IRQHandler
+                0x00000000080006fc                EXTI4_15_IRQHandler
+                0x00000000080006fc                RCC_IRQHandler
+                0x00000000080006fc                Default_Handler
+                0x00000000080006fc                TIM14_IRQHandler
+                0x00000000080006fc                EXTI0_1_IRQHandler
+                0x00000000080006fc                SPI2_IRQHandler
+                0x00000000080006fc                WWDG_IRQHandler
+                0x00000000080006fc                LPUART1_IRQHandler
+                0x00000000080006fc                TIM2_IRQHandler
+                0x00000000080006fc                DMA1_Channel2_3_IRQHandler
+                0x00000000080006fc                USART2_IRQHandler
+                0x00000000080006fc                FLASH_IRQHandler
+                0x00000000080006fc                USART1_IRQHandler
+                0x00000000080006fc                TIM1_BRK_UP_TRG_COM_IRQHandler
+                0x00000000080006fc                TIM1_CC_IRQHandler
+ *fill*         0x00000000080006fe        0x2 
  .text.HAL_InitTick
-                0x000000000800067c       0x58 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x000000000800067c                HAL_InitTick
+                0x0000000008000700       0x58 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x0000000008000700                HAL_InitTick
  .text.HAL_Init
-                0x00000000080006d4       0x28 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x00000000080006d4                HAL_Init
+                0x0000000008000758       0x28 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x0000000008000758                HAL_Init
  .text.HAL_IncTick
-                0x00000000080006fc       0x18 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x00000000080006fc                HAL_IncTick
+                0x0000000008000780       0x18 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x0000000008000780                HAL_IncTick
  .text.HAL_GetTick
-                0x0000000008000714        0xc CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x0000000008000714                HAL_GetTick
+                0x0000000008000798        0xc CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x0000000008000798                HAL_GetTick
  .text.HAL_Delay
-                0x0000000008000720       0x24 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x0000000008000720                HAL_Delay
+                0x00000000080007a4       0x24 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x00000000080007a4                HAL_Delay
  .text.HAL_NVIC_SetPriority
-                0x0000000008000744       0x60 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
-                0x0000000008000744                HAL_NVIC_SetPriority
+                0x00000000080007c8       0x60 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+                0x00000000080007c8                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x00000000080007a4       0x18 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
-                0x00000000080007a4                HAL_NVIC_EnableIRQ
+                0x0000000008000828       0x18 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+                0x0000000008000828                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x00000000080007bc       0x38 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
-                0x00000000080007bc                HAL_SYSTICK_Config
+                0x0000000008000840       0x38 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+                0x0000000008000840                HAL_SYSTICK_Config
  .text.DMA_SetConfig
-                0x00000000080007f4       0x48 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+                0x0000000008000878       0x48 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
  .text.DMA_CalcDMAMUXChannelBaseAndMask
-                0x000000000800083c       0x38 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+                0x00000000080008c0       0x38 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
  .text.DMA_CalcDMAMUXRequestGenBaseAndMask
-                0x0000000008000874       0x28 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+                0x00000000080008f8       0x28 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
  .text.HAL_DMA_Init
-                0x000000000800089c       0xb0 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
-                0x000000000800089c                HAL_DMA_Init
+                0x0000000008000920       0xb0 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+                0x0000000008000920                HAL_DMA_Init
  .text.HAL_DMA_Start_IT
-                0x000000000800094c       0x9c CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
-                0x000000000800094c                HAL_DMA_Start_IT
+                0x00000000080009d0       0x9c CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+                0x00000000080009d0                HAL_DMA_Start_IT
  .text.HAL_DMA_Abort_IT
-                0x00000000080009e8       0x80 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
-                0x00000000080009e8                HAL_DMA_Abort_IT
+                0x0000000008000a6c       0x80 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+                0x0000000008000a6c                HAL_DMA_Abort_IT
  .text.HAL_DMA_IRQHandler
-                0x0000000008000a68       0xcc CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
-                0x0000000008000a68                HAL_DMA_IRQHandler
+                0x0000000008000aec       0xcc CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+                0x0000000008000aec                HAL_DMA_IRQHandler
  .text.HAL_GPIO_Init
-                0x0000000008000b34      0x174 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
-                0x0000000008000b34                HAL_GPIO_Init
+                0x0000000008000bb8      0x174 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+                0x0000000008000bb8                HAL_GPIO_Init
  .text.HAL_PWREx_ControlVoltageScaling
-                0x0000000008000ca8       0x54 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
-                0x0000000008000ca8                HAL_PWREx_ControlVoltageScaling
+                0x0000000008000d2c       0x54 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+                0x0000000008000d2c                HAL_PWREx_ControlVoltageScaling
  .text.HAL_RCC_OscConfig
-                0x0000000008000cfc      0x4b8 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
-                0x0000000008000cfc                HAL_RCC_OscConfig
+                0x0000000008000d80      0x4b8 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+                0x0000000008000d80                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x00000000080011b4       0xb8 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
-                0x00000000080011b4                HAL_RCC_GetSysClockFreq
+                0x0000000008001238       0xb8 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+                0x0000000008001238                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x000000000800126c      0x18c CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
-                0x000000000800126c                HAL_RCC_ClockConfig
+                0x00000000080012f0      0x18c CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+                0x00000000080012f0                HAL_RCC_ClockConfig
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x00000000080013f8      0x1f4 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
-                0x00000000080013f8                HAL_RCCEx_PeriphCLKConfig
+                0x000000000800147c      0x1f4 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+                0x000000000800147c                HAL_RCCEx_PeriphCLKConfig
  .text.TIM_OC1_SetConfig
-                0x00000000080015ec       0x80 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001670       0x80 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .text.TIM_OC3_SetConfig
-                0x000000000800166c       0x8c CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x00000000080016f0       0x8c CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .text.TIM_OC4_SetConfig
-                0x00000000080016f8       0x68 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x000000000800177c       0x68 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .text.TIM_OC5_SetConfig
-                0x0000000008001760       0x64 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x00000000080017e4       0x64 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .text.TIM_OC6_SetConfig
-                0x00000000080017c4       0x68 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001848       0x68 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .text.TIM_TI1_ConfigInputStage
-                0x000000000800182c       0x22 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
- *fill*         0x000000000800184e        0x2 
+                0x00000000080018b0       0x22 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ *fill*         0x00000000080018d2        0x2 
  .text.TIM_TI2_ConfigInputStage
-                0x0000000008001850       0x28 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x00000000080018d4       0x28 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .text.TIM_ITRx_SetConfig
-                0x0000000008001878       0x14 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x00000000080018fc       0x14 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .text.HAL_TIM_PWM_MspInit
-                0x000000000800188c        0x2 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x000000000800188c                HAL_TIM_PWM_MspInit
+                0x0000000008001910        0x2 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001910                HAL_TIM_PWM_MspInit
  .text.TIM_DMADelayPulseCplt
-                0x000000000800188e       0x70 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001912       0x70 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .text.HAL_TIM_PWM_PulseFinishedHalfCpltCallback
-                0x00000000080018fe        0x2 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x00000000080018fe                HAL_TIM_PWM_PulseFinishedHalfCpltCallback
+                0x0000000008001982        0x2 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001982                HAL_TIM_PWM_PulseFinishedHalfCpltCallback
  .text.TIM_DMADelayPulseHalfCplt
-                0x0000000008001900       0x3e CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x0000000008001900                TIM_DMADelayPulseHalfCplt
+                0x0000000008001984       0x3e CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001984                TIM_DMADelayPulseHalfCplt
  .text.HAL_TIM_ErrorCallback
-                0x000000000800193e        0x2 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x000000000800193e                HAL_TIM_ErrorCallback
+                0x00000000080019c2        0x2 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x00000000080019c2                HAL_TIM_ErrorCallback
  .text.TIM_DMAError
-                0x0000000008001940       0x5c CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x0000000008001940                TIM_DMAError
+                0x00000000080019c4       0x5c CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x00000000080019c4                TIM_DMAError
  .text.TIM_Base_SetConfig
-                0x000000000800199c       0x94 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x000000000800199c                TIM_Base_SetConfig
+                0x0000000008001a20       0x94 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001a20                TIM_Base_SetConfig
  .text.HAL_TIM_Base_Init
-                0x0000000008001a30       0x60 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x0000000008001a30                HAL_TIM_Base_Init
+                0x0000000008001ab4       0x60 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001ab4                HAL_TIM_Base_Init
  .text.HAL_TIM_PWM_Init
-                0x0000000008001a90       0x60 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x0000000008001a90                HAL_TIM_PWM_Init
+                0x0000000008001b14       0x60 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001b14                HAL_TIM_PWM_Init
  .text.TIM_OC2_SetConfig
-                0x0000000008001af0       0x80 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x0000000008001af0                TIM_OC2_SetConfig
+                0x0000000008001b74       0x80 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001b74                TIM_OC2_SetConfig
  .text.HAL_TIM_PWM_ConfigChannel
-                0x0000000008001b70      0x144 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x0000000008001b70                HAL_TIM_PWM_ConfigChannel
+                0x0000000008001bf4      0x144 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001bf4                HAL_TIM_PWM_ConfigChannel
  .text.TIM_ETR_SetConfig
-                0x0000000008001cb4       0x18 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x0000000008001cb4                TIM_ETR_SetConfig
+                0x0000000008001d38       0x18 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001d38                TIM_ETR_SetConfig
  .text.HAL_TIM_ConfigClockSource
-                0x0000000008001ccc      0x108 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x0000000008001ccc                HAL_TIM_ConfigClockSource
+                0x0000000008001d50      0x108 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001d50                HAL_TIM_ConfigClockSource
  .text.TIM_CCxChannelCmd
-                0x0000000008001dd4       0x1a CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x0000000008001dd4                TIM_CCxChannelCmd
- *fill*         0x0000000008001dee        0x2 
+                0x0000000008001e58       0x1a CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001e58                TIM_CCxChannelCmd
+ *fill*         0x0000000008001e72        0x2 
  .text.HAL_TIM_PWM_Start_DMA
-                0x0000000008001df0      0x2a8 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x0000000008001df0                HAL_TIM_PWM_Start_DMA
+                0x0000000008001e74      0x2a8 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0000000008001e74                HAL_TIM_PWM_Start_DMA
  .text.HAL_TIM_PWM_Stop_DMA
-                0x0000000008002098      0x130 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x0000000008002098                HAL_TIM_PWM_Stop_DMA
+                0x000000000800211c      0x130 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x000000000800211c                HAL_TIM_PWM_Stop_DMA
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x00000000080021c8       0x78 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
-                0x00000000080021c8                HAL_TIMEx_MasterConfigSynchronization
+                0x000000000800224c       0x78 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+                0x000000000800224c                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_ConfigBreakDeadTime
-                0x0000000008002240       0xcc CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
-                0x0000000008002240                HAL_TIMEx_ConfigBreakDeadTime
- .text.memset   0x000000000800230c       0xa8 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
-                0x000000000800230c                memset
+                0x00000000080022c4       0xcc CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+                0x00000000080022c4                HAL_TIMEx_ConfigBreakDeadTime
+ .text.memset   0x0000000008002390       0xa8 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
+                0x0000000008002390                memset
  .text.__libc_init_array
-                0x00000000080023b4       0x44 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
-                0x00000000080023b4                __libc_init_array
+                0x0000000008002438       0x44 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
+                0x0000000008002438                __libc_init_array
  .text.__retarget_lock_acquire_recursive
-                0x00000000080023f8        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
-                0x00000000080023f8                __retarget_lock_acquire_recursive
+                0x000000000800247c        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+                0x000000000800247c                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x00000000080023fc        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
-                0x00000000080023fc                __retarget_lock_release_recursive
+                0x0000000008002480        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+                0x0000000008002480                __retarget_lock_release_recursive
  .text.startup.register_fini
-                0x0000000008002400       0x18 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
- .text.atexit   0x0000000008002418       0x10 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
-                0x0000000008002418                atexit
+                0x0000000008002484       0x18 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+ .text.atexit   0x000000000800249c       0x10 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+                0x000000000800249c                atexit
  .text.__libc_fini_array
-                0x0000000008002428       0x28 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
-                0x0000000008002428                __libc_fini_array
+                0x00000000080024ac       0x28 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+                0x00000000080024ac                __libc_fini_array
  .text.__register_exitproc
-                0x0000000008002450       0xa0 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
-                0x0000000008002450                __register_exitproc
+                0x00000000080024d4       0xa0 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+                0x00000000080024d4                __register_exitproc
  *(.glue_7)
- .glue_7        0x00000000080024f0        0x0 linker stubs
+ .glue_7        0x0000000008002574        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x00000000080024f0        0x0 linker stubs
+ .glue_7t       0x0000000008002574        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x00000000080024f0        0x0 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
+ .eh_frame      0x0000000008002574        0x0 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
  *(.init)
- .init          0x00000000080024f0        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crti.o
-                0x00000000080024f0                _init
- .init          0x00000000080024f4        0x8 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtn.o
+ .init          0x0000000008002574        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crti.o
+                0x0000000008002574                _init
+ .init          0x0000000008002578        0x8 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtn.o
  *(.fini)
- .fini          0x00000000080024fc        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crti.o
-                0x00000000080024fc                _fini
- .fini          0x0000000008002500        0x8 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtn.o
-                0x0000000008002508                . = ALIGN (0x4)
-                0x0000000008002508                _etext = .
+ .fini          0x0000000008002580        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crti.o
+                0x0000000008002580                _fini
+ .fini          0x0000000008002584        0x8 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtn.o
+                0x000000000800258c                . = ALIGN (0x4)
+                0x000000000800258c                _etext = .
 
-.vfp11_veneer   0x0000000008002508        0x0
- .vfp11_veneer  0x0000000008002508        0x0 linker stubs
+.vfp11_veneer   0x000000000800258c        0x0
+ .vfp11_veneer  0x000000000800258c        0x0 linker stubs
 
-.v4_bx          0x0000000008002508        0x0
- .v4_bx         0x0000000008002508        0x0 linker stubs
+.v4_bx          0x000000000800258c        0x0
+ .v4_bx         0x000000000800258c        0x0 linker stubs
 
-.iplt           0x0000000008002508        0x0
- .iplt          0x0000000008002508        0x0 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x000000000800258c        0x0
+ .iplt          0x000000000800258c        0x0 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000008002508      0x160
-                0x0000000008002508                . = ALIGN (0x4)
+.rodata         0x000000000800258c      0x160
+                0x000000000800258c                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x0000000008002508       0x40 CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
-                0x0000000008002508                AHBPrescTable
+                0x000000000800258c       0x40 CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
+                0x000000000800258c                AHBPrescTable
  .rodata.HAL_TIM_PWM_ConfigChannel
-                0x0000000008002548       0x54 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x00000000080025cc       0x54 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .rodata.HAL_TIM_PWM_Start_DMA
-                0x000000000800259c       0xcc CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
-                0x0000000008002668                . = ALIGN (0x4)
+                0x0000000008002620       0xcc CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x00000000080026ec                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000008002668        0x0
- .rel.iplt      0x0000000008002668        0x0 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x00000000080026ec        0x0
+ .rel.iplt      0x00000000080026ec        0x0 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.ARM.extab      0x0000000008002668        0x0
-                0x0000000008002668                . = ALIGN (0x4)
+.ARM.extab      0x00000000080026ec        0x0
+                0x00000000080026ec                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008002668                . = ALIGN (0x4)
+                0x00000000080026ec                . = ALIGN (0x4)
 
-.ARM            0x0000000008002668        0x0
-                0x0000000008002668                . = ALIGN (0x4)
-                0x0000000008002668                __exidx_start = .
+.ARM            0x00000000080026ec        0x0
+                0x00000000080026ec                . = ALIGN (0x4)
+                0x00000000080026ec                __exidx_start = .
  *(.ARM.exidx*)
-                0x0000000008002668                __exidx_end = .
-                0x0000000008002668                . = ALIGN (0x4)
+                0x00000000080026ec                __exidx_end = .
+                0x00000000080026ec                . = ALIGN (0x4)
 
-.preinit_array  0x0000000008002668        0x0
-                0x0000000008002668                . = ALIGN (0x4)
-                0x0000000008002668                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x00000000080026ec        0x0
+                0x00000000080026ec                . = ALIGN (0x4)
+                0x00000000080026ec                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008002668                PROVIDE (__preinit_array_end = .)
-                0x0000000008002668                . = ALIGN (0x4)
+                0x00000000080026ec                PROVIDE (__preinit_array_end = .)
+                0x00000000080026ec                . = ALIGN (0x4)
 
-.init_array     0x0000000008002668        0x8
-                0x0000000008002668                . = ALIGN (0x4)
-                0x0000000008002668                PROVIDE (__init_array_start = .)
+.init_array     0x00000000080026ec        0x8
+                0x00000000080026ec                . = ALIGN (0x4)
+                0x00000000080026ec                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x0000000008002668        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+                0x00000000080026ec        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x000000000800266c        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000008002670                PROVIDE (__init_array_end = .)
-                0x0000000008002670                . = ALIGN (0x4)
+ .init_array    0x00000000080026f0        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x00000000080026f4                PROVIDE (__init_array_end = .)
+                0x00000000080026f4                . = ALIGN (0x4)
 
-.fini_array     0x0000000008002670        0x4
-                0x0000000008002670                . = ALIGN (0x4)
-                0x0000000008002670                PROVIDE (__fini_array_start = .)
+.fini_array     0x00000000080026f4        0x4
+                0x00000000080026f4                . = ALIGN (0x4)
+                0x00000000080026f4                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008002670        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000008002674                PROVIDE (__fini_array_end = .)
-                0x0000000008002674                . = ALIGN (0x4)
-                0x0000000008002674                _sidata = LOADADDR (.data)
+ .fini_array    0x00000000080026f4        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x00000000080026f8                PROVIDE (__fini_array_end = .)
+                0x00000000080026f8                . = ALIGN (0x4)
+                0x00000000080026f8                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x10 load address 0x0000000008002674
+.data           0x0000000020000000       0x10 load address 0x00000000080026f8
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -1783,17 +1784,17 @@ LOAD /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 0x0000000020000010                _edata = .
 
 .tm_clone_table
-                0x0000000020000010        0x0 load address 0x0000000008002684
+                0x0000000020000010        0x0 load address 0x0000000008002708
  .tm_clone_table
                 0x0000000020000010        0x0 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x0000000020000010        0x0 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x0000000020000010        0x0 load address 0x0000000008002684
+.igot.plt       0x0000000020000010        0x0 load address 0x0000000008002708
  .igot.plt      0x0000000020000010        0x0 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
                 0x0000000020000010                . = ALIGN (0x4)
 
-.bss            0x0000000020000010      0x3e8 load address 0x0000000008002684
+.bss            0x0000000020000010      0x408 load address 0x0000000008002708
                 0x0000000020000010                _sbss = .
                 0x0000000020000010                __bss_start__ = _sbss
  *(.bss)
@@ -1802,43 +1803,45 @@ LOAD /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 0x0000000020000010        0x1 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
  *fill*         0x0000000020000011        0x3 
  .bss.object.0  0x0000000020000014       0x18 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtbegin.o
+ .bss.colors    0x000000002000002c       0x20 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+                0x000000002000002c                colors
  .bss.datasentflag
-                0x000000002000002c        0x4 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
-                0x000000002000002c                datasentflag
+                0x000000002000004c        0x4 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+                0x000000002000004c                datasentflag
  .bss.hdma_tim1_ch1
-                0x0000000020000030       0x5c CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
-                0x0000000020000030                hdma_tim1_ch1
- .bss.htim1     0x000000002000008c       0x4c CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
-                0x000000002000008c                htim1
- .bss.pwmData   0x00000000200000d8      0x182 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
-                0x00000000200000d8                pwmData
- *fill*         0x000000002000025a        0x2 
- .bss.uwTick    0x000000002000025c        0x4 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x000000002000025c                uwTick
+                0x0000000020000050       0x5c CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+                0x0000000020000050                hdma_tim1_ch1
+ .bss.htim1     0x00000000200000ac       0x4c CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+                0x00000000200000ac                htim1
+ .bss.pwmData   0x00000000200000f8      0x182 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+                0x00000000200000f8                pwmData
+ *fill*         0x000000002000027a        0x2 
+ .bss.uwTick    0x000000002000027c        0x4 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x000000002000027c                uwTick
  .bss.__lock___atexit_recursive_mutex
-                0x0000000020000260        0x1 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
-                0x0000000020000260                __lock___atexit_recursive_mutex
- *fill*         0x0000000020000261        0x3 
- .bss.__atexit  0x0000000020000264        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
-                0x0000000020000264                __atexit
+                0x0000000020000280        0x1 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+                0x0000000020000280                __lock___atexit_recursive_mutex
+ *fill*         0x0000000020000281        0x3 
+ .bss.__atexit  0x0000000020000284        0x4 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+                0x0000000020000284                __atexit
  .bss.__atexit0
-                0x0000000020000268      0x190 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
-                0x0000000020000268                __atexit0
+                0x0000000020000288      0x190 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+                0x0000000020000288                __atexit0
  *(COMMON)
-                0x00000000200003f8                . = ALIGN (0x4)
-                0x00000000200003f8                _ebss = .
-                0x00000000200003f8                __bss_end__ = _ebss
+                0x0000000020000418                . = ALIGN (0x4)
+                0x0000000020000418                _ebss = .
+                0x0000000020000418                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x00000000200003f8      0x600 load address 0x0000000008002684
-                0x00000000200003f8                . = ALIGN (0x8)
+                0x0000000020000418      0x600 load address 0x0000000008002708
+                0x0000000020000418                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
-                0x00000000200003f8                PROVIDE (_end = .)
-                0x00000000200005f8                . = (. + _Min_Heap_Size)
- *fill*         0x00000000200003f8      0x200 
-                0x00000000200009f8                . = (. + _Min_Stack_Size)
- *fill*         0x00000000200005f8      0x400 
-                0x00000000200009f8                . = ALIGN (0x8)
+                0x0000000020000418                PROVIDE (_end = .)
+                0x0000000020000618                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000418      0x200 
+                0x0000000020000a18                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000618      0x400 
+                0x0000000020000a18                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -1933,96 +1936,96 @@ LOAD /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
  .comment       0x0000000000000033       0x34 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
  .comment       0x0000000000000033       0x34 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/crtend.o
 
-.debug_info     0x0000000000000000     0xd3c7
- .debug_info    0x0000000000000000     0x1439 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
- .debug_info    0x0000000000001439      0xccb CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
- .debug_info    0x0000000000002104      0x462 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
- .debug_info    0x0000000000002566      0x34a CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
- .debug_info    0x00000000000028b0       0x23 CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
- .debug_info    0x00000000000028d3      0xaec CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
- .debug_info    0x00000000000033bf      0x9a5 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
- .debug_info    0x0000000000003d64      0x9f8 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
- .debug_info    0x000000000000475c      0x5eb CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
- .debug_info    0x0000000000004d47      0x7f5 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
- .debug_info    0x000000000000553c      0xd57 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
- .debug_info    0x0000000000006293      0x8a0 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
- .debug_info    0x0000000000006b33     0x3de5 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
- .debug_info    0x000000000000a918     0x1ed1 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
- .debug_info    0x000000000000c7e9       0x25 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
- .debug_info    0x000000000000c80e       0x24 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_info    0x000000000000c832      0x135 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
- .debug_info    0x000000000000c967      0x10b /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
- .debug_info    0x000000000000ca72      0x20a /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
- .debug_info    0x000000000000cc7c      0x2dd /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
- .debug_info    0x000000000000cf59      0x118 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
- .debug_info    0x000000000000d071       0xf7 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
- .debug_info    0x000000000000d168      0x25f /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+.debug_info     0x0000000000000000     0xd448
+ .debug_info    0x0000000000000000     0x14ba CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00000000000014ba      0xccb CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+ .debug_info    0x0000000000002185      0x462 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
+ .debug_info    0x00000000000025e7      0x34a CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
+ .debug_info    0x0000000000002931       0x23 CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
+ .debug_info    0x0000000000002954      0xaec CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+ .debug_info    0x0000000000003440      0x9a5 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+ .debug_info    0x0000000000003de5      0x9f8 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+ .debug_info    0x00000000000047dd      0x5eb CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+ .debug_info    0x0000000000004dc8      0x7f5 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+ .debug_info    0x00000000000055bd      0xd57 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+ .debug_info    0x0000000000006314      0x8a0 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+ .debug_info    0x0000000000006bb4     0x3de5 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .debug_info    0x000000000000a999     0x1ed1 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .debug_info    0x000000000000c86a       0x25 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_info    0x000000000000c88f       0x24 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x000000000000c8b3      0x135 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
+ .debug_info    0x000000000000c9e8      0x10b /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
+ .debug_info    0x000000000000caf3      0x20a /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+ .debug_info    0x000000000000ccfd      0x2dd /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+ .debug_info    0x000000000000cfda      0x118 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+ .debug_info    0x000000000000d0f2       0xf7 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+ .debug_info    0x000000000000d1e9      0x25f /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
 
-.debug_abbrev   0x0000000000000000     0x2663
- .debug_abbrev  0x0000000000000000      0x320 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x0000000000000320      0x22a CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
- .debug_abbrev  0x000000000000054a      0x16a CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
- .debug_abbrev  0x00000000000006b4      0x146 CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
- .debug_abbrev  0x00000000000007fa       0x12 CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
- .debug_abbrev  0x000000000000080c      0x2c6 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
- .debug_abbrev  0x0000000000000ad2      0x2ca CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
- .debug_abbrev  0x0000000000000d9c      0x207 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
- .debug_abbrev  0x0000000000000fa3      0x206 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
- .debug_abbrev  0x00000000000011a9      0x254 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x00000000000013fd      0x2d3 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
- .debug_abbrev  0x00000000000016d0      0x28b CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x000000000000195b      0x294 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
- .debug_abbrev  0x0000000000001bef      0x2a7 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
- .debug_abbrev  0x0000000000001e96       0x14 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
- .debug_abbrev  0x0000000000001eaa       0x14 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_abbrev  0x0000000000001ebe       0xb7 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
- .debug_abbrev  0x0000000000001f75       0xc9 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
- .debug_abbrev  0x000000000000203e      0x115 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
- .debug_abbrev  0x0000000000002153      0x200 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
- .debug_abbrev  0x0000000000002353       0xbe /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
- .debug_abbrev  0x0000000000002411       0xc9 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
- .debug_abbrev  0x00000000000024da      0x189 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+.debug_abbrev   0x0000000000000000     0x2670
+ .debug_abbrev  0x0000000000000000      0x32d CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x000000000000032d      0x22a CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+ .debug_abbrev  0x0000000000000557      0x16a CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
+ .debug_abbrev  0x00000000000006c1      0x146 CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
+ .debug_abbrev  0x0000000000000807       0x12 CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
+ .debug_abbrev  0x0000000000000819      0x2c6 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+ .debug_abbrev  0x0000000000000adf      0x2ca CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+ .debug_abbrev  0x0000000000000da9      0x207 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+ .debug_abbrev  0x0000000000000fb0      0x206 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+ .debug_abbrev  0x00000000000011b6      0x254 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x000000000000140a      0x2d3 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+ .debug_abbrev  0x00000000000016dd      0x28b CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x0000000000001968      0x294 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .debug_abbrev  0x0000000000001bfc      0x2a7 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x0000000000001ea3       0x14 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x0000000000001eb7       0x14 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x0000000000001ecb       0xb7 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
+ .debug_abbrev  0x0000000000001f82       0xc9 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
+ .debug_abbrev  0x000000000000204b      0x115 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+ .debug_abbrev  0x0000000000002160      0x200 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+ .debug_abbrev  0x0000000000002360       0xbe /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+ .debug_abbrev  0x000000000000241e       0xc9 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+ .debug_abbrev  0x00000000000024e7      0x189 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
 
 .debug_loclists
-                0x0000000000000000     0x6f55
+                0x0000000000000000     0x6f22
  .debug_loclists
-                0x0000000000000000       0x8d CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+                0x0000000000000000       0x5a CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
  .debug_loclists
-                0x000000000000008d       0x7f CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+                0x000000000000005a       0x7f CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
  .debug_loclists
-                0x000000000000010c       0x6d CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
+                0x00000000000000d9       0x6d CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
  .debug_loclists
-                0x0000000000000179      0x125 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x0000000000000146      0x125 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
  .debug_loclists
-                0x000000000000029e      0x2b4 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+                0x000000000000026b      0x2b4 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
  .debug_loclists
-                0x0000000000000552      0x5bc CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+                0x000000000000051f      0x5bc CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
  .debug_loclists
-                0x0000000000000b0e      0x27b CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+                0x0000000000000adb      0x27b CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
  .debug_loclists
-                0x0000000000000d89      0x191 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+                0x0000000000000d56      0x191 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
  .debug_loclists
-                0x0000000000000f1a      0x497 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+                0x0000000000000ee7      0x497 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
  .debug_loclists
-                0x00000000000013b1      0x62c CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+                0x000000000000137e      0x62c CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
  .debug_loclists
-                0x00000000000019dd     0x36d0 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x00000000000019aa     0x36d0 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .debug_loclists
-                0x00000000000050ad     0x19c1 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+                0x000000000000507a     0x19c1 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
  .debug_loclists
-                0x0000000000006a6e      0x1cb /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
+                0x0000000000006a3b      0x1cb /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
  .debug_loclists
-                0x0000000000006c39       0x64 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
+                0x0000000000006c06       0x64 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
  .debug_loclists
-                0x0000000000006c9d       0x23 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+                0x0000000000006c6a       0x23 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
  .debug_loclists
-                0x0000000000006cc0      0x14d /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+                0x0000000000006c8d      0x14d /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
  .debug_loclists
-                0x0000000000006e0d       0x2a /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+                0x0000000000006dda       0x2a /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
  .debug_loclists
-                0x0000000000006e37       0x34 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+                0x0000000000006e04       0x34 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
  .debug_loclists
-                0x0000000000006e6b       0xea /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+                0x0000000000006e38       0xea /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
 
 .debug_aranges  0x0000000000000000      0xc40
  .debug_aranges
@@ -2073,120 +2076,120 @@ LOAD /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 0x0000000000000c20       0x20 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
 
 .debug_rnglists
-                0x0000000000000000      0x965
+                0x0000000000000000      0x974
  .debug_rnglists
-                0x0000000000000000       0x4b CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+                0x0000000000000000       0x5a CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
  .debug_rnglists
-                0x000000000000004b       0x26 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+                0x000000000000005a       0x26 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
  .debug_rnglists
-                0x0000000000000071       0x31 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
+                0x0000000000000080       0x31 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
  .debug_rnglists
-                0x00000000000000a2       0x1a CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
+                0x00000000000000b1       0x1a CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
  .debug_rnglists
-                0x00000000000000bc       0x19 CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
+                0x00000000000000cb       0x19 CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
  .debug_rnglists
-                0x00000000000000d5       0xd9 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x00000000000000e4       0xd9 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
  .debug_rnglists
-                0x00000000000001ae       0x97 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+                0x00000000000001bd       0x97 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
  .debug_rnglists
-                0x0000000000000245       0x6e CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+                0x0000000000000254       0x6e CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
  .debug_rnglists
-                0x00000000000002b3       0x45 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+                0x00000000000002c2       0x45 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
  .debug_rnglists
-                0x00000000000002f8       0xb2 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+                0x0000000000000307       0xb2 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
  .debug_rnglists
-                0x00000000000003aa       0x85 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+                0x00000000000003b9       0x85 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
  .debug_rnglists
-                0x000000000000042f       0x3c CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+                0x000000000000043e       0x3c CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
  .debug_rnglists
-                0x000000000000046b      0x311 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x000000000000047a      0x311 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .debug_rnglists
-                0x000000000000077c      0x13f CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+                0x000000000000078b      0x13f CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
  .debug_rnglists
-                0x00000000000008bb       0x14 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
+                0x00000000000008ca       0x14 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
  .debug_rnglists
-                0x00000000000008cf       0x13 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
+                0x00000000000008de       0x13 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
  .debug_rnglists
-                0x00000000000008e2       0x19 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+                0x00000000000008f1       0x19 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
  .debug_rnglists
-                0x00000000000008fb       0x30 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+                0x000000000000090a       0x30 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
  .debug_rnglists
-                0x000000000000092b       0x13 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+                0x000000000000093a       0x13 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
  .debug_rnglists
-                0x000000000000093e       0x13 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+                0x000000000000094d       0x13 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
  .debug_rnglists
-                0x0000000000000951       0x14 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+                0x0000000000000960       0x14 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
 
-.debug_line     0x0000000000000000     0xcfcd
- .debug_line    0x0000000000000000      0x71d CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000000000000071d      0x419 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
- .debug_line    0x0000000000000b36      0x2d6 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
- .debug_line    0x0000000000000e0c      0x309 CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
- .debug_line    0x0000000000001115       0x7b CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
- .debug_line    0x0000000000001190      0x734 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
- .debug_line    0x00000000000018c4      0x72d CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
- .debug_line    0x0000000000001ff1      0xbdd CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
- .debug_line    0x0000000000002bce      0x754 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
- .debug_line    0x0000000000003322      0x7b0 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
- .debug_line    0x0000000000003ad2      0xe56 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
- .debug_line    0x0000000000004928      0xa14 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
- .debug_line    0x000000000000533c     0x4fb9 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
- .debug_line    0x000000000000a2f5     0x2064 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
- .debug_line    0x000000000000c359       0x56 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
- .debug_line    0x000000000000c3af       0x4a /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_line    0x000000000000c3f9      0x25b /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
- .debug_line    0x000000000000c654      0x176 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
- .debug_line    0x000000000000c7ca      0x115 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
- .debug_line    0x000000000000c8df      0x2ce /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
- .debug_line    0x000000000000cbad      0x117 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
- .debug_line    0x000000000000ccc4      0x146 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
- .debug_line    0x000000000000ce0a      0x1c3 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+.debug_line     0x0000000000000000     0xd008
+ .debug_line    0x0000000000000000      0x758 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x0000000000000758      0x419 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+ .debug_line    0x0000000000000b71      0x2d6 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
+ .debug_line    0x0000000000000e47      0x309 CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
+ .debug_line    0x0000000000001150       0x7b CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
+ .debug_line    0x00000000000011cb      0x734 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+ .debug_line    0x00000000000018ff      0x72d CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+ .debug_line    0x000000000000202c      0xbdd CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+ .debug_line    0x0000000000002c09      0x754 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+ .debug_line    0x000000000000335d      0x7b0 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+ .debug_line    0x0000000000003b0d      0xe56 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+ .debug_line    0x0000000000004963      0xa14 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+ .debug_line    0x0000000000005377     0x4fb9 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .debug_line    0x000000000000a330     0x2064 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .debug_line    0x000000000000c394       0x56 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_line    0x000000000000c3ea       0x4a /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000000000000c434      0x25b /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
+ .debug_line    0x000000000000c68f      0x176 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
+ .debug_line    0x000000000000c805      0x115 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+ .debug_line    0x000000000000c91a      0x2ce /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+ .debug_line    0x000000000000cbe8      0x117 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+ .debug_line    0x000000000000ccff      0x146 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+ .debug_line    0x000000000000ce45      0x1c3 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
 
-.debug_str      0x0000000000000000     0x42e9
- .debug_str     0x0000000000000000      0xf0d CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
-                                        0xfec (size before relaxing)
- .debug_str     0x0000000000000f0d      0x225 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+.debug_str      0x0000000000000000     0x42e3
+ .debug_str     0x0000000000000000      0xf07 CMakeFiles/Neopixel2.elf.dir/Core/Src/main.c.obj
+                                        0xfe6 (size before relaxing)
+ .debug_str     0x0000000000000f07      0x225 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
                                         0xb23 (size before relaxing)
- .debug_str     0x0000000000001132       0xc5 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
+ .debug_str     0x000000000000112c       0xc5 CMakeFiles/Neopixel2.elf.dir/Core/Src/stm32g0xx_it.c.obj
                                         0x54f (size before relaxing)
- .debug_str     0x00000000000011f7       0xc5 CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
+ .debug_str     0x00000000000011f1       0xc5 CMakeFiles/Neopixel2.elf.dir/Core/Src/system_stm32g0xx.c.obj
                                         0x344 (size before relaxing)
- .debug_str     0x00000000000012bc       0x5d CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
+ .debug_str     0x00000000000012b6       0x5d CMakeFiles/Neopixel2.elf.dir/Core/Startup/startup_stm32g031k8tx.s.obj
                                          0x9b (size before relaxing)
- .debug_str     0x0000000000001319      0x4c5 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+ .debug_str     0x0000000000001313      0x4c5 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
                                         0x9c2 (size before relaxing)
- .debug_str     0x00000000000017de      0x362 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+ .debug_str     0x00000000000017d8      0x362 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
                                         0x788 (size before relaxing)
- .debug_str     0x0000000000001b40      0x2cb CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+ .debug_str     0x0000000000001b3a      0x2cb CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
                                         0x7de (size before relaxing)
- .debug_str     0x0000000000001e0b      0x1a0 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+ .debug_str     0x0000000000001e05      0x1a0 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
                                         0x459 (size before relaxing)
- .debug_str     0x0000000000001fab      0x41d CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+ .debug_str     0x0000000000001fa5      0x41d CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
                                         0x6ff (size before relaxing)
- .debug_str     0x00000000000023c8      0x219 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+ .debug_str     0x00000000000023c2      0x219 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
                                         0x7ec (size before relaxing)
- .debug_str     0x00000000000025e1      0x13f CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+ .debug_str     0x00000000000025db      0x13f CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
                                         0x664 (size before relaxing)
- .debug_str     0x0000000000002720      0xe2d CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .debug_str     0x000000000000271a      0xe2d CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
                                        0x1849 (size before relaxing)
- .debug_str     0x000000000000354d      0x569 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .debug_str     0x0000000000003547      0x569 CMakeFiles/Neopixel2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
                                        0x11e5 (size before relaxing)
- .debug_str     0x0000000000003ab6       0xd2 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_str     0x0000000000003ab0       0xd2 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
                                          0xde (size before relaxing)
- .debug_str     0x0000000000003b88       0xde /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_str     0x0000000000003b88      0x181 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
+ .debug_str     0x0000000000003b82       0xde /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_str     0x0000000000003b82      0x181 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-memset.o)
                                         0x21d (size before relaxing)
- .debug_str     0x0000000000003d09       0xc5 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
+ .debug_str     0x0000000000003d03       0xc5 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-init.o)
                                         0x26a (size before relaxing)
- .debug_str     0x0000000000003dce      0x26f /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+ .debug_str     0x0000000000003dc8      0x26f /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
                                         0x37c (size before relaxing)
- .debug_str     0x000000000000403d      0x10e /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+ .debug_str     0x0000000000004037      0x10e /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
                                         0x346 (size before relaxing)
- .debug_str     0x000000000000414b       0xa7 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+ .debug_str     0x0000000000004145       0xa7 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
                                         0x246 (size before relaxing)
- .debug_str     0x00000000000041f2       0x83 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+ .debug_str     0x00000000000041ec       0x83 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
                                         0x240 (size before relaxing)
- .debug_str     0x0000000000004275       0x74 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+ .debug_str     0x000000000000426f       0x74 /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
                                         0x31d (size before relaxing)
 
 .debug_frame    0x0000000000000000     0x1d80

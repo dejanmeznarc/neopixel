@@ -81,14 +81,14 @@ void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim) {
 uint16_t pwmData[BUF_LEN];
 
 
+uint32_t colors[LEDS] = {0x000000};
 
-void WS2812_Send(uint32_t color) {
+void WS2812_Send() {
     for (int j = 0; j < (LEDS); ++j) {
         for (int i = 23; i >= 0; i--) {
-            pwmData[24*j+i] = color & (1 << i) ? PWM_HI : PWM_LO;
+            pwmData[24*j+i] = colors[j] & (1 << i) ? PWM_HI : PWM_LO;
         }
     }
-
 
     HAL_TIM_PWM_Start_DMA(&htim1, TIM_CHANNEL_1, (uint32_t *) pwmData, BUF_LEN);
     while (!datasentflag) {};
@@ -133,22 +133,54 @@ int main(void) {
     /* USER CODE BEGIN WHILE */
     while (1) {
 
-        uint32_t colour = 0xFF0000;  // colour code for some color
-        WS2812_Send(colour);
+        colors[0] = 0xFF0000;
+        WS2812_Send();
         HAL_Delay(1000);
 
-        colour = 0x00FF00;  // colour code for some color
-        WS2812_Send(colour);
+        colors[1] = 0x550000;
+        WS2812_Send();
         HAL_Delay(1000);
 
-        colour = 0x0000FF;  // colour code for some color
-        WS2812_Send(colour);
+        colors[2] = 0x00FF00;
+        WS2812_Send();
         HAL_Delay(1000);
 
 
-        colour = 0x000000;  // colour code for some color
-        WS2812_Send(colour);
+        colors[3] = 0x0000FF;
+        WS2812_Send();
+        HAL_Delay(1000);
+
+
+        colors[4] = 0xFFFFFF;
+        WS2812_Send();
+        HAL_Delay(1000);
+
+
+        colors[5] = 0xFF00FF;
+        WS2812_Send();
+        HAL_Delay(1000);
+
+        colors[6] = 0xFFFF00;
+        WS2812_Send();
+        HAL_Delay(1000);
+
+
+        colors[7] = 0x00FFFF;
+        WS2812_Send();
+        HAL_Delay(1000);
+
+
+
+        HAL_Delay(1000);
+
+
+        for (int i = 0; i < LEDS; ++i) {
+            colors[i] = 0x000000;
+        }
+        // colors code for some color
+        WS2812_Send();
         HAL_Delay(2000);
+
 
         /* USER CODE END WHILE */
 
