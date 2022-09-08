@@ -95,13 +95,14 @@ void sendData() {
     dataSent = 0;
 }
 
-/* USER CODE END 0 */
-
 inline void resetLeds() {
     for (int i = 0; i < LEDS; ++i) {
         colors[i] = 0x000000;
     }
 }
+
+/* USER CODE END 0 */
+
 
 /**
   * @brief  The application entry point.
