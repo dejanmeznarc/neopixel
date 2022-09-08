@@ -101,6 +101,29 @@ inline void resetLeds() {
     }
 }
 
+uint32_t colorConvert(uint32_t std_rgb){
+    typedef union Color {
+        uint32_t rgb;
+        uint8_t bytes[3]
+    } color_t;
+
+    color_t stdColor;
+    stdColor.rgb = std_rgb;
+
+
+    color_t grbColor;
+    grbColor.bytes[0] = stdColor.bytes[1];
+    grbColor.bytes[1] = stdColor.bytes[2];
+    grbColor.bytes[2] = stdColor.bytes[0];
+
+    return grbColor.rgb;
+}
+
+inline void setLed(uint8_t index, uint32_t color){
+    colors[index] = colorConvert(color);
+}
+
+
 /* USER CODE END 0 */
 
 
@@ -140,20 +163,18 @@ int main(void) {
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
     while (1) {
-
-
         resetLeds();
-        colors[2] = 0xFF00FF;
+        setLed(2, 0xFF0000);
         sendData();
         HAL_Delay(250);
 
         resetLeds();
-        colors[6] = 0xFF00FF;
+        setLed(6, 0x00FF00);
         sendData();
         HAL_Delay(250);
 
         resetLeds();
-        colors[4] = 0xFF00FF;
+        setLed(4, 0x0000FF);
         sendData();
         HAL_Delay(250);
 
