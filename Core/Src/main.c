@@ -62,11 +62,11 @@ static void MX_TIM1_Init(void);
 /* USER CODE BEGIN 0 */
 
 
-int datasentflag = 0;
+int dataSent = 0;
 
 void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim) {
     HAL_TIM_PWM_Stop_DMA(htim, TIM_CHANNEL_1);
-    datasentflag = 1;
+    dataSent = 1;
 }
 
 
@@ -91,12 +91,13 @@ void sendData() {
     }
 
     HAL_TIM_PWM_Start_DMA(&htim1, TIM_CHANNEL_1, (uint32_t *) pwmData, BUF_LEN);
-    while (!datasentflag) {};
-    datasentflag = 0;
+    while (!dataSent) {};
+    dataSent = 0;
 }
+
 /* USER CODE END 0 */
 
-inline void resetLeds(){
+inline void resetLeds() {
     for (int i = 0; i < LEDS; ++i) {
         colors[i] = 0x000000;
     }
@@ -194,7 +195,7 @@ int main(void) {
         HAL_Delay(500);
 
 
-      resetLeds();
+        resetLeds();
         // colors code for some color
         sendData();
         HAL_Delay(1500);
