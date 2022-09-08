@@ -1,3 +1,0 @@
-/Users/dejan/code/iskra/neopixel2/Neopixel2/cmake-build-debug/CMakeFiles/Neopixel2.elf.dir
-/Users/dejan/code/iskra/neopixel2/Neopixel2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/dejan/code/iskra/neopixel2/Neopixel2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

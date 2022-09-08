@@ -104,7 +104,7 @@ inline void resetLeds() {
 uint32_t colorConvert(uint32_t std_rgb){
     typedef union Color {
         uint32_t rgb;
-        uint8_t bytes[3]
+        uint8_t bytes[3];
     } color_t;
 
     color_t stdColor;
