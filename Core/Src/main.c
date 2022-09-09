@@ -118,11 +118,6 @@ uint32_t colorConvert(uint32_t std_rgb) {
     return grbColor.rgb;
 }
 
-inline void setLed(uint8_t index, uint32_t color) {
-    colors[index] = colorConvert(color);
-}
-
-
 /* USER CODE END 0 */
 
 
@@ -161,31 +156,16 @@ int main(void) {
 
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "EndlessLoop"
     while (1) {
-        resetLeds();
-        setLed(2, 0xFF0000);
-        sendData();
-        HAL_Delay(250);
-
-        resetLeds();
-        setLed(6, 0x00FF00);
-        sendData();
-        HAL_Delay(250);
-
-        resetLeds();
-        setLed(4, 0x0000FF);
-        sendData();
-        HAL_Delay(250);
-
 
         resetLeds();
         colors[0] = 0xFF0000;
-        sendData();
-        HAL_Delay(500);
-
         colors[1] = 0xF00000;
         sendData();
         HAL_Delay(500);
+
 
         colors[2] = 0x00FF00;
         sendData();
@@ -210,7 +190,6 @@ int main(void) {
         sendData();
         HAL_Delay(500);
 
-
         colors[7] = 0x00FFFF;
         sendData();
         HAL_Delay(500);
@@ -226,6 +205,7 @@ int main(void) {
 
         /* USER CODE BEGIN 3 */
     }
+#pragma clang diagnostic pop
     /* USER CODE END 3 */
 }
 
